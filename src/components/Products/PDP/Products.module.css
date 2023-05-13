@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .search_bar {
+    width: 350px;
+  }
+
+  .results_num_verbiage {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+.result_num {
+    font-family: 'Dancing Script', cursive;
+}
+
+.btn_filter {
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 3px;
+  color: white;
+  border: none;
+  transition: 0.5s;
+  background-size: 200% auto;
+  background-image: linear-gradient(to left, #4ebdfe 0%, #3bb6f8 51%, #3b52f8 100%);
+}
+
+.btn_search {
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+    color: white;
+    padding: 3px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-image: linear-gradient(to right, #4ebdfe 0%, #3bb6f8 51%, #3b52f8 100%);
+    background-size: 175% auto;
+  }
+
+  .btn_search:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+
+  .btn_filter:hover, .clear_btn:hover {
+    background-position: right center; /* change the direction of the change here */
+  }
+
+  .enabled_filters {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .clear_btn {
+    border-radius: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 5px 20px;
+    color: white;
+    border: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #e7b5e6 0%, #dd89db 51%, #d475d2 100%);
+  }
+
+  .pagination_container {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .pagination_btn {
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    margin: 2px 5px;
+    padding: 8px 18px;
+    transition: 0.5s;
+    background-image: linear-gradient(to right, #e7b5e6 0%, #dd89db 51%, #d475d2 100%);
+    background-size: 125% auto;
+}
+
+@media screen and (max-width: 425px) {
+
+  .search_bar {
+    width: 200px;
+  }
+
+  .btn_search {
+    padding: 3px 5px;
+  }
+}

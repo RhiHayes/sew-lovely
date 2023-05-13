@@ -1,0 +1,101 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.thank_you_container {
+    padding: 30px;
+    margin-top: 125px;
+    text-align: center;
+}
+
+.thank_you_title {
+    padding: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 75px;
+}
+
+.socials {
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.rhi {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.arrow {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px; 
+}
+
+.grow {
+    transition: all .3s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.5);
+}
+
+.checkout_container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.checkout_row {
+    margin-top: 30px;
+}
+
+.single_price {
+    margin-top: 10px;
+}
+
+.total_amount {
+    font-size: 30px;
+}
+
+.max_amount {
+    color: grey;
+}
+
+.total_price {
+    font-weight: bold;
+}
+
+.checkout_btn {
+    margin-bottom: 30px;
+    min-height: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: 0.5s;
+    background-image: linear-gradient(to right, #4ebdfe 0%, #3bb6f8 51%, #3b52f8 100%);
+    background-size: 125% auto;
+    padding: 10px 20px;
+}
+
+.checkout_btn:hover {
+    color: black;
+    background-position: right center; /* change the direction of the change here */
+}
+
+.quantity_btn {
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px 15px;
+    background-image: linear-gradient(to right, #e7b5e6 0%, #dd89db 51%, #d475d2 100%);
+    border: 1px solid;
+}
+
+.quantity_btn:disabled {
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px 15px;
+    background-image: linear-gradient(to right, #c3c3c3 0%, #aaaaaa 51%, #7b7b7b 100%);
+    border: 1px solid;
+}

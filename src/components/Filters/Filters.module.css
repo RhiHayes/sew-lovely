@@ -1,0 +1,22 @@
+.filters_container {
+    margin: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-image: url(https://rhihayes.github.io/prof-images/triangles-2.png) 30;
+}
+
+.filter_boxes {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 15px 20px;
+    background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #fceb9b, #d475d2) border-box;
+    border: 3px solid transparent;
+}
+
+.filter_title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}

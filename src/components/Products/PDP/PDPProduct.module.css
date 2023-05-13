@@ -1,0 +1,56 @@
+.container {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.title {
+    margin-top: 30px;
+    min-height: 110px;
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.new_price {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+
+.image {
+    margin-top: 30px;
+    width: 300px;
+    height: 450px;
+}
+
+.btn_buy {
+    margin-top: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-image: linear-gradient(to right, #4ebdfe 0%, #3bb6f8 51%, #3b52f8 100%);
+    background-size: 150% auto;
+  }
+
+  .btn_buy:hover {
+    background-position: right center;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .image {
+        margin-top: 30px;
+        width: 250px;
+        height: 400px;
+    }
+  }
