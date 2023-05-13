@@ -15,7 +15,7 @@ function App() {
     <>
    <Navbar />
     <Switch>
-        <Route exact path="/" component={Home}/>
+        <Route exact path="/" component={Home} basename={process.env.PUBLIC_URL}/>
         <Route exact path="/products" component={Products}/>
         <Route exact path="/product/:sku" component={ProductList}/>
         <Route exact path="/cart" component={Cart} />

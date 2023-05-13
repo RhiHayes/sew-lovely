@@ -2,7 +2,7 @@
   "homepage": "http://rhihayes.github.io/ssew-lovely",
   "name": "react-the-complete-guide",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "@testing-library/jest-dom": "^4.2.4",

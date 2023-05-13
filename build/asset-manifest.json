@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ssew-lovely/static/css/main.4e7ef989.css",
+    "main.js": "/ssew-lovely/static/js/main.dff90c95.js",
+    "static/media/sewingLogo.png": "/ssew-lovely/static/media/sewingLogo.3a8e1218d7428285a1ae.png",
+    "index.html": "/ssew-lovely/index.html",
+    "main.4e7ef989.css.map": "/ssew-lovely/static/css/main.4e7ef989.css.map",
+    "main.dff90c95.js.map": "/ssew-lovely/static/js/main.dff90c95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e7ef989.css",
+    "static/js/main.dff90c95.js"
+  ]
+}
