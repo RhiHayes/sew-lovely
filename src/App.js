@@ -8,20 +8,21 @@ import Cart from './components/Cart/Cart';
 import Checkout from './components/Cart/Checkout';
 
 import Navbar from './UI/HomeNavbar';
+import { HashRouter } from 'react-router-dom';
  
 function App() {
 
   return (
-    <>
+    <HashRouter basename="/">
    <Navbar />
     <Switch>
-        <Route exact path="/" component={Home} basename={process.env.PUBLIC_URL}/>
+        <Route exact path="/" component={Home}/>
         <Route exact path="/products" component={Products}/>
         <Route exact path="/product/:sku" component={ProductList}/>
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/checkout" component={Checkout} />
     </Switch>
-     </>
+    </HashRouter>
   );
 }
 
