@@ -8,12 +8,11 @@ import Cart from './components/Cart/Cart';
 import Checkout from './components/Cart/Checkout';
 
 import Navbar from './UI/HomeNavbar';
-import { HashRouter } from 'react-router-dom';
  
 function App() {
 
   return (
-    <HashRouter basename="/">
+    <>
    <Navbar />
     <Switch>
         <Route exact path="/" component={Home}/>
@@ -22,7 +21,7 @@ function App() {
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/checkout" component={Checkout} />
     </Switch>
-    </HashRouter>
+     </>
   );
 }
 
