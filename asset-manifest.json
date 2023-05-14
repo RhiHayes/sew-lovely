@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ssew-lovely/static/css/main.4e7ef989.css",
-    "main.js": "/ssew-lovely/static/js/main.014b527f.js",
-    "static/media/sewingLogo.png": "/ssew-lovely/static/media/sewingLogo.3a8e1218d7428285a1ae.png",
-    "index.html": "/ssew-lovely/index.html",
-    "main.4e7ef989.css.map": "/ssew-lovely/static/css/main.4e7ef989.css.map",
-    "main.014b527f.js.map": "/ssew-lovely/static/js/main.014b527f.js.map"
+    "main.css": "/sew-lovely/static/css/main.4e7ef989.css",
+    "main.js": "/sew-lovely/static/js/main.03d7078b.js",
+    "static/media/sewingLogo.png": "/sew-lovely/static/media/sewingLogo.3a8e1218d7428285a1ae.png",
+    "index.html": "/sew-lovely/index.html",
+    "main.4e7ef989.css.map": "/sew-lovely/static/css/main.4e7ef989.css.map",
+    "main.03d7078b.js.map": "/sew-lovely/static/js/main.03d7078b.js.map"
   },
   "entrypoints": [
     "static/css/main.4e7ef989.css",
-    "static/js/main.014b527f.js"
+    "static/js/main.03d7078b.js"
   ]
 }
