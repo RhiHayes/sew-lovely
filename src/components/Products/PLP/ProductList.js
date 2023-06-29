@@ -54,7 +54,7 @@ const ProductList = () => {
         fetchProduct();
       }, [fetchProduct]);
 
-      let content = <p>Found no movies</p>
+      let content = <p>Found no products</p>
 
       if(product.length > 0) {
         content = <ProductListPage products={product}/>
