@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useParams } from "react-router-dom";
+import Loader from '../../../UI/Loader';
 
 import ProductListPage from './ProductListPage';
 
@@ -60,7 +61,7 @@ const ProductList = () => {
        }
  
        if(loading) {
-         content = <p>Loading...</p>
+         content = <Loader />
        }
 
         return (

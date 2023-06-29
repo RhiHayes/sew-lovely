@@ -74,7 +74,7 @@ const PLPProduct = (props) => {
   return (
     <Container>
     <Row>
-    <Col md={12} lg={12} xl={6}>
+    <Col md={12} lg={12} xl={6} className={classes.img_container}>
       <img src={props.image} className={classes.single_image} />
       </Col>
       <Col md={12} lg={12} xl={5} className={classes.container}>

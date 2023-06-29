@@ -8,7 +8,14 @@ ul {
     font-family: 'Nunito Sans', sans-serif;
 }
 
+.img_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .single_image {
+     width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -40,6 +47,7 @@ ul {
 }
 
 .size_btn {
+    color: black;
     font-family: 'Nunito Sans', sans-serif;
     background-color: white;
     border: 4px solid transparent;
@@ -102,4 +110,19 @@ ul {
     transition: 0.5s;
     background-image: linear-gradient(to right, #e7b5e6 0%, #dd89db 51%, #d475d2 100%);
     background-size: 125% auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .single_title {
+        font-size: 35px;
+    }
+
+    .single_image {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 300px;
+        height: 500px;
+    }
 }

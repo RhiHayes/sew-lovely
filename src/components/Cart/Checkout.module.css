@@ -99,3 +99,23 @@
     background-image: linear-gradient(to right, #c3c3c3 0%, #aaaaaa 51%, #7b7b7b 100%);
     border: 1px solid;
 }
+
+@media only screen and (max-width: 768px) {
+    .thank_you_container {
+        margin-top: 15px;
+    }
+    
+    .thank_you_title {
+        font-size: 45px;
+    }
+
+    .rhi {
+        margin-top: 10px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .empty {
+        text-align: center;
+    }
+}

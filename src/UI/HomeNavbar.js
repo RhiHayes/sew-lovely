@@ -24,18 +24,18 @@ const HomeNavbar = () => {
           </NavLink>
         </Navbar.Brand>
         <Nav className={`${classes.nav_item} me-auto`}>
-          <Nav.Link className="mt-2"> 
+          <Nav.Link className={`${classes.nav_link} mt-2`}> 
             <NavLink aria-current="page" to="/">
                   Home
               </NavLink>
             </Nav.Link>
-            <Nav.Link className="mt-2">
+            <Nav.Link className={`${classes.nav_link} mt-2`}>
             <NavLink to="/products">
                   Products
               </NavLink>
             </Nav.Link>
         </Nav>
-        <Nav.Link className="mt-2">
+        <Nav.Link className={`${classes.nav_link} mt-2`}>
             <NavLink to="/cart" className={`${classes.cart}`}>
                 <i className="fa fa-shopping-cart me-1"></i>
                 Cart ({cartNum})
